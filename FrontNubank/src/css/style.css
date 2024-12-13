@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header a {
+    text-decoration: none;
+    color: #4a4a4a;
+    margin: 0 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8A05BE;
+    width: 50px;
+    flex: 5%;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 40px 30px;
+    min-height: 90vh;
+    background-image: url(/src/img/nubank.png);
+    background-size: cover;
+    padding: 40px 30px;
+    min-height: 90vh;
+}
+
+.main-content {
+    max-width: 50%;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.card-section {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-section input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; 
+    border-bottom: 2px solid #ddd; 
+    border-radius: 0; 
+    outline: none; 
+    transition: border-color 0.3s ease; 
+}
+
+.card-section input:focus {
+    border-bottom: 2px solid #8A05BE; 
+}
+
+.card-section button {
+    width: 100%;
+    padding: 10px;
+    background: #9b9b9b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.card-section button:hover {
+    background: #6108A7;
+}
+
+.door-image {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+nav {
+    display: flex;
+    flex: 85%;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: #4a4a4a;
+    margin: 0 10px;
+    justify-content: flex-start;
+}
+
+Login{
+    color: #8A05BE;
+    flex: 10%;
+}
